@@ -1,10 +1,15 @@
+import { Box } from "@chakra-ui/react";
 import Banner from "../components/Banner";
+import Projects from "../components/Projects";
+import Profiles from "../components/Profiles";
 
 function Home(){
     return(
-        <div>
+            <Box paddingBottom={'100px'}>
             <Banner />
-        </div>
+            <Projects />
+            <Profiles />
+            </Box>
     )
 }
 

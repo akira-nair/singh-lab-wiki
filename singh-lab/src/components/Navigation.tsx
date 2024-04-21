@@ -12,17 +12,19 @@ const Navigation = () => {
       color="white"
     >
       <Flex align="center">
+        <Link href="/">
         <Text fontWeight="bold" fontSize="xl" letterSpacing={5}>
           SINGH LAB @ BROWN
         </Text>
+        </Link>
       </Flex>
       <Box>
         <Flex align="center">
           <Link href="/about" marginRight="3rem">
             About Us
           </Link>
-          <Link href="#" marginRight="3rem">
-            Getting Started
+          <Link href="/wiki" marginRight="3rem">
+            Lab Wiki
           </Link>
           <Link href="#" marginRight="3rem">
             Publications
