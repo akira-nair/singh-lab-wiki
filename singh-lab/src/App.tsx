@@ -14,6 +14,8 @@ import Home from './pages/Home';
 import Wiki from './pages/Wiki';
 import LinuxOscar from './pages/wiki/LinuxOscar';
 import Footer from './components/Footer';
+import Publications from './pages/Publications';
+import JoinUs from './pages/JoinUs';
 
 function App() {
   return (
@@ -25,10 +27,12 @@ function App() {
           {/* <Switch> */}
           <Routes>
             <Route path='/' element={Home()} />
-            <Route path='/about' element={AboutUs()} />
+            <Route path='about' element={AboutUs()} />
             <Route path='wiki' element={Wiki()}>
               <Route path='linux_and_oscar' element={LinuxOscar()}/>
             </Route>
+            <Route path='publications' element={Publications()} />
+            <Route path='join' element={JoinUs()} />
 
           </Routes>
           {/* </Switch> */}

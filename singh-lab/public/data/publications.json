@@ -1,0 +1,190 @@
+[
+    {
+        "Preprints": [
+            {
+                "title": "scNODE: Generative Model for Temporal Single Cell Transcriptomic Data Prediction.",
+                "authors": [
+                    {
+                        "name": "Jiaqi Zhang",
+                        "equal_contribution": false,
+                        "corresponding": false,
+                        "undergrad": false
+                    },
+                    {
+                        "name": "Erica Larschan",
+                        "equal_contribution": false,
+                        "corresponding": false,
+                        "undergrad": false
+                    },
+                    {
+                        "name": "Jeremy Bigness",
+                        "equal_contribution": false,
+                        "corresponding": true,
+                        "undergrad": false
+                    },
+                    {
+                        "name": "R. Singh",
+                        "equal_contribution": false,
+                        "corresponding": true,
+                        "undergrad": false
+                    }
+                ],
+                "journal": "",
+                "code": "https://github.com/rsinghlab/scNODE",
+                "link": "https://www.biorxiv.org/content/10.1101/2023.11.22.568346v1"
+            },
+            {
+                "title": "Histone mark age of human tissues and cells",
+                "authors": [
+                    {
+                        "name": "Lucas Paulo de Lima Camillo",
+                        "equal_contribution": false,
+                        "corresponding": true,
+                        "undergrad": false
+                    },
+                    {
+                        "name": "Muhamad Haider Asif",
+                        "equal_contribution": false,
+                        "corresponding": false,
+                        "undergrad": true
+                    },
+                    {
+                        "name": "Steve Horvath",
+                        "equal_contribution": false,
+                        "corresponding": false,
+                        "undergrad": false
+                    },
+                    {
+                        "name": "Erica Larschan",
+                        "equal_contribution": false,
+                        "corresponding": false,
+                        "undergrad": false
+                    },
+                    {
+                        "name": "R. Singh",
+                        "equal_contribution": false,
+                        "corresponding": true,
+                        "undergrad": false
+                    }
+                ],
+                "link": "https://www.biorxiv.org/content/10.1101/2023.08.21.554165v3"
+            },
+            {
+                "title": "One-Versus-Others Attention: Scalable Multimodal Integration",
+                "authors": [
+                    {
+                        "name": "Michal Golovanevsky",
+                        "equal_contribution": false,
+                        "corresponding": false,
+                        "undergrad": false
+                    },
+                    {
+                        "name": "Eva Schiller",
+                        "equal_contribution": false,
+                        "corresponding": false,
+                        "undergrad": true
+                    },
+                    {
+                        "name": "Akira Nair",
+                        "equal_contribution": false,
+                        "corresponding": false,
+                        "undergrad": true
+                    },
+                    {
+                        "name": "R. Singh",
+                        "equal_contribution": false,
+                        "corresponding": true,
+                        "undergrad": false
+                    },
+                    {
+                        "name": "Carsten Eikhoff",
+                        "equal_contribution": false,
+                        "corresponding": true,
+                        "undergrad": false
+                    }
+                ],
+                "code": "https://github.com/rsinghlab/OvO",
+                "link": "https://arxiv.org/abs/2307.05435"
+            }
+            
+        ]
+    },
+    {
+        "2024": [
+            {
+                "title": "Predicting A/B compartments from histone modifications using deep learning.",
+                "authors": [
+                    {
+                        "name": "Suchen Zheng",
+                        "equal_contribution": true,
+                        "corresponding": false,
+                        "undergrad": false
+                    },
+                    {
+                        "name": "Nitya Thakkar",
+                        "equal_contribution": true,
+                        "corresponding": false,
+                        "undergrad": true
+                    },
+                    {
+                        "name": "Hannah L. Harris",
+                        "equal_contribution": false,
+                        "corresponding": false,
+                        "undergrad": false
+                    },
+                    {
+                        "name": "Megan Zhang",
+                        "equal_contribution": false,
+                        "corresponding": false,
+                        "undergrad": false
+                    },
+                    {
+                        "name": "Susanna Liu",
+                        "equal_contribution": false,
+                        "corresponding": false,
+                        "undergrad": false
+                    },
+                    {
+                        "name": "Mark Gerstein",
+                        "equal_contribution": false,
+                        "corresponding": false,
+                        "undergrad": false
+                    },
+                    {
+                        "name": "Erez Lieberman Aiden",
+                        "equal_contribution": false,
+                        "corresponding": false,
+                        "undergrad": false
+                    },
+                    {
+                        "name": "Jordan Rowley",
+                        "equal_contribution": false,
+                        "corresponding": false,
+                        "undergrad": false
+                    },
+                    {
+                        "name": "William S. Noble",
+                        "equal_contribution": false,
+                        "corresponding": false,
+                        "undergrad": false
+                    },
+                    {
+                        "name": "Gamze Gursoy",
+                        "equal_contribution": false,
+                        "corresponding": true,
+                        "undergrad": false
+                    },
+                    {
+                        "name": "R. Singh",
+                        "equal_contribution": false,
+                        "corresponding": true,
+                        "undergrad": false
+                    }
+                ],
+                "journal": "iScience (ACM BCB 2023 Special Issue)",
+                "link": "https://www.sciencedirect.com/science/article/pii/S2589004224007922",
+                "code": "https://github.com/rsinghlab/CoRNN"
+            }
+        ]
+    }
+]

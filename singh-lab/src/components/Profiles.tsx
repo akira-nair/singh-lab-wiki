@@ -26,13 +26,13 @@ export function ProfileCard(props: {name: string, role: string, image: string, f
 export default function Profiles() {
     return (
         <Box>
-            <Heading padding={'50px'} color={'white'}>
+            <Heading fontSize={'1.8em'} padding={'50px'} color={'white'}>
                 Members
             </Heading>
             
             <VStack>
                 <ProfileCard name="Ritambhara Singh" role="Assistant Professor Computer Science and Data Science" image="assets/profiles/ritambhara_singh.webp" fun_fact="I have the best lab at Brown!" />
-                <Heading marginTop={'35px'} marginBottom={'15px'} size={'md'} color={'white'}>Undergraduates</Heading>
+                <Heading marginTop={'35px'} marginBottom={'15px'} size={'1.5em'} color={'white'}>Undergraduates</Heading>
                 <SimpleGrid columns={3} alignItems={'center'} justifyItems={'center'} maxW={'100%'} spacingX={'10px'}>
                     <ProfileCard name="Wangdrak Dorji" role="Undergraduate Research Assistant (Computer Science)" image="assets/profiles/wangdrak_dorji.webp" fun_fact="I am from Thimphu, Bhutan!" />
                     <ProfileCard name="Manav Chakravarthy" role="Undergraduate Research Assistant (Computer Science & Physics)" image="assets/profiles/manav_chakravarthy.webp" fun_fact="I am from Chennai, India!" />
