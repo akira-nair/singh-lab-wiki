@@ -91,8 +91,9 @@ function Publications() {
             <VStack>
                 {publicationsData ? (
                     publicationsData.map((item: { [x: string]: { title: string; authors: Author[]; journal: string; code: string | undefined; link: string | undefined}[]; }, index: React.Key | null | undefined) => (
-                        <Box key={index} marginTop={'30px'}>
+                        <Box key={index} marginTop={'30px'} width={'100%'}>
                             <Heading as="h2" size="md" mb={4}>{Object.keys(item)[0]}</Heading>
+                            <Box textAlign={'justify'} paddingX={'20%'}>
                             {item[Object.keys(item)[0]].map((publication: { title: string; authors: Author[]; journal: string; code: string | undefined; link: string | undefined }, pubIndex: React.Key | null | undefined) => (
                                 <PublicationCard
                                     key={pubIndex}
@@ -103,6 +104,7 @@ function Publications() {
                                     link={publication.link}
                                 />
                             ))}
+                            </Box>
                             {/* <Divider/> */}
                         </Box>
                     ))

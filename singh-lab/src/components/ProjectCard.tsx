@@ -1,6 +1,6 @@
-import { AbsoluteCenter, Box, Button, Center, Flex, Icon, Image, Text, VStack, useMediaQuery } from "@chakra-ui/react";
+import { AbsoluteCenter, Box, Button, Center, Flex, Icon, Image, Text, VStack, useMediaQuery, Link } from "@chakra-ui/react";
 import { ArrowForwardIcon } from '@chakra-ui/icons'
-export default function ProjectCard(props: {title: string, description: string}) {
+export default function ProjectCard(props: {title: string, description: string, href?: string}) {
     const [isSmallScreen] = useMediaQuery('(max-width: 1000px)');
     return (
         <Box width={isSmallScreen ? '80%' : '40%'} backgroundColor={'rgba(255, 255, 255, 0.8)'} boxShadow={30}>
@@ -11,8 +11,10 @@ export default function ProjectCard(props: {title: string, description: string})
                     <Text fontSize={'large'}>{props.title}</Text>
                     <Text fontSize={'small'}>{props.description}</Text>
                     <Button variant='link' fontSize={'smaller'}>
+                        <Link href={props.href} isExternal>
                         <Text>Learn More</Text>
                         <ArrowForwardIcon></ArrowForwardIcon>
+                        </Link>
                     </Button>
                     {/* <Icon as={'ArrowForwardIcon'}> Learn More </Icon> */}
                 </VStack>

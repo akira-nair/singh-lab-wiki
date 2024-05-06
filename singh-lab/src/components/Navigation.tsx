@@ -90,6 +90,9 @@ const Navigation = () => {
             <Link href="/publications" marginRight="3rem">
               Publications
             </Link>
+            <Link href="/news" marginRight="3rem">
+              Lab Updates
+            </Link>
             <Link href="/join" marginRight="3rem">
               Join Us
             </Link>

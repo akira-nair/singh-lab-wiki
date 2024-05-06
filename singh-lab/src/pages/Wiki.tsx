@@ -25,29 +25,8 @@ function WikiCard() {
     )
 
 }
-const Prism = require('prismjs');
-// The code snippet you want to highlight, as a string
-const code = `var data = 1;`;
-
-// Returns a highlighted HTML string
-const codeBlock = Prism.highlight(code, Prism.languages.javascript, 'javascript');
 
 function Wiki() {
-    const [markdown, setMarkdown] = useState('');
-
-    useEffect(() => {
-        const fetchMarkdown = async () => {
-            try {
-                const response = await fetch('/articles/welcome.md');
-                const markdownText = await response.text();
-                setMarkdown(markdownText);
-            } catch (error) {
-                console.error('Error fetching Markdown:', error);
-            }
-        };
-
-        fetchMarkdown();
-    }, []);
     return (
         <Box justifyContent={'center'} alignItems={'center'} paddingBottom={'500px'}>
 

@@ -1,0 +1,36 @@
+[
+    {
+        "Doctoral Students": [
+            {
+                "name": "Pinar Demetci",
+                "role": "Computational Biology",
+                "position": "Eric and Wendy Schmidt Fellow at Broad Institute"
+            },
+            {
+                "name": "Jeremy Bigness",
+                "role": "Computational Biology",
+                "position": "Research Scientist at Agilent"
+            }
+        ]
+    },
+    {
+        "Masters Students": [
+            {
+                "name": "Adam Berkley",
+                "role": "Computer Science",
+                "position": "Associate Professional Staff at John Hopkins University"
+            },
+            {
+                "name": "Camillo Saueressig",
+                "role": "Computer Science Concurrent MS",
+                "position": "TUM-LMU Medical program (Germany)"
+            }
+            
+        ]
+    },
+    {
+        "Undergraduates": [
+           
+        ]
+    }
+]

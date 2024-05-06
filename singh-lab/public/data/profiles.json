@@ -1,0 +1,112 @@
+[
+    {
+        "Ph.D. Students": [
+            {
+                "name": "Jiaqi Zhang",
+                "role": "Computer Science"
+            },
+            {
+                "name": "Atishay Jain",
+                "role": "Computer Science"
+            },
+            {
+                "name": "Ghulam Murtaza",
+                "role": "Computer Science"
+            },
+            {
+                "name": "Michal Golovanevsky",
+                "role": "Computer Science"
+            },
+            {
+                "name": "Amina Abdullahi",
+                "role": "Computer Science"
+            },
+            {
+                "name": "Hyeyeon Hwang",
+                "role": "Computational Biology"
+            },
+            {
+                "name": "Whitney Sloneker",
+                "role": "Computational Biology"
+            },
+            {
+                "name": "Ananya Pavuluri",
+                "role": "Computational Biology"
+            },
+            {
+                "name": "Tuan Pham",
+                "role": "Computational Biology"
+            }
+            
+
+            
+        ]
+    },
+    {
+        "Masters Students": [
+            {
+                "name": "Zhirui Li",
+                "role": "Data Science"
+            },
+            {
+                "name": "Yuqi Lei",
+                "role": "Computer Science"
+            },
+            {
+                "name": "Nikolai Stambler",
+                "role": "Data Science Practicuum"
+            }
+            
+        ]
+    },
+    {
+        "Undergraduates": [
+            {
+                "name": "Wangdrak Dorji",
+                "role": "Computer Science",
+                "image": "assets/profiles/wangdrak_dorji.webp",
+                "fun_fact": "I am from Thimphu, Bhutan!"
+            },
+            {
+                "name": "Manav Chakravarthy",
+                "role": "Computer Science & Physics",
+                "image": "assets/profiles/manav_chakravarthy.webp",
+                "fun_fact": "I am from Chennai, India!"
+            },
+            {
+                "name": "Akira Nair",
+                "role": "Computer Science",
+                "image": "assets/profiles/akira_nair.webp",
+                "fun_fact": "I am from Seattle, WA!"
+            },
+            {
+                "name": "Jay Gopal",
+                "role": ""
+            },
+            {
+                "name": "Eva Schiller",
+                "role": ""
+            },
+            {
+                "name": "Byron Butaney",
+                "role": ""
+            },
+            {
+                "name": "Ilana Nguyen",
+                "role": ""
+            },
+            {
+                "name": "Oliver Kanders",
+                "role": ""
+            },
+            {
+                "name": "Gabrielle Shieh",
+                "role": ""
+            },
+            {
+                "name": "Sean Yu",
+                "role": ""
+            }
+        ]
+    }
+]

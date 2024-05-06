@@ -1,0 +1,12 @@
+[
+    {
+        "title": "scNODE",
+        "description": "Generative Model  that integrates a variational autoencoder (VAE) with neural ordinary differential equations (ODEs) to predict gene expression in a continuous and non-linear latent space",
+        "href": ""
+    },
+    {
+        "title": "One-Versus-Others Attention",
+        "description": "A new domain-neutral attention mechanism, One-Versus-Others (OvO) attention, that scales linearly with the number of modalities and requires only n attention operations, thus offering a significant reduction in computational complexity compared to existing cross-modal attention algorithms",
+        "href": ""
+    }
+]

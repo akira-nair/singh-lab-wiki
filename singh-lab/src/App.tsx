@@ -1,9 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Navigation from './components/Navigation';
-import { ChakraProvider } from '@chakra-ui/react';
-import Banner from './components/Banner';
+import { ChakraProvider, extendTheme } from '@chakra-ui/react';
 import {
   BrowserRouter as Router,
   Routes,
@@ -12,10 +10,11 @@ import {
 import AboutUs from './pages/AboutUs';
 import Home from './pages/Home';
 import Wiki from './pages/Wiki';
-import LinuxOscar from './pages/wiki/LinuxOscar';
 import Footer from './components/Footer';
 import Publications from './pages/Publications';
 import JoinUs from './pages/JoinUs';
+import News from './pages/News';
+
 
 function App() {
   return (
@@ -23,22 +22,17 @@ function App() {
       <ChakraProvider>
         <Router>
           <Navigation />
-
-          {/* <Switch> */}
+          {/* Specifies pages of website */}
           <Routes>
             <Route path='/' element={Home()} />
             <Route path='about' element={AboutUs()} />
-            <Route path='wiki' element={Wiki()}>
-              <Route path='linux_and_oscar' element={LinuxOscar()}/>
-            </Route>
+            <Route path='wiki' element={Wiki()} />
             <Route path='publications' element={Publications()} />
+            <Route path='news' element={News()} />
             <Route path='join' element={JoinUs()} />
-
           </Routes>
-          {/* </Switch> */}
           <Footer />
         </Router>
-        {/* Other components and content of your app */}
       </ChakraProvider>
     </div>
   );
