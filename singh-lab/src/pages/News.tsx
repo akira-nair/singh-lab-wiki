@@ -5,7 +5,7 @@ import { ReactNode } from "react";
 
 function UpdateCard(props: { date: string, title: string, children?: ReactNode }) {
     return (
-        <Card width={'100%'} padding={'15px'}>
+        <Card width={'100%'} padding={'15px'} gap={3}>
             <HStack>
                 <CiCalendarDate />
                 <Text>

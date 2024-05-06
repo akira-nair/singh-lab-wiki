@@ -27,8 +27,8 @@ const authors: Author[] = [
 
 function PublicationCard(props: { title: string, authors: Author[], journal?: string, code?: string , link?: string}) {
     return (
-        <Container maxWidth={'100%'} color={'white'} padding={'20px'}>
-            <Text fontSize={'1.1em'}>
+        <Container width={'100%'} color={'white'} paddingY={'4%'}>
+            <Text fontSize={'1.1vem'}>
                 {props.authors && props.authors.map((author, index) => (
                     <React.Fragment key={index}>
                         {author.undergrad ? <u>{author.name}</u> : author.name=='R. Singh' ? <b>{author.name}</b> : author.name}
@@ -86,14 +86,14 @@ function Publications() {
     }, []);
 
     return (
-        <Container maxWidth={'80%'} color={'white'}>
+        <Container color={'white'}>
             <Title text="Publications"></Title>
             <VStack>
                 {publicationsData ? (
                     publicationsData.map((item: { [x: string]: { title: string; authors: Author[]; journal: string; code: string | undefined; link: string | undefined}[]; }, index: React.Key | null | undefined) => (
                         <Box key={index} marginTop={'30px'} width={'100%'}>
                             <Heading as="h2" size="md" mb={4}>{Object.keys(item)[0]}</Heading>
-                            <Box textAlign={'justify'} paddingX={'20%'}>
+                            <Box textAlign={'justify'} paddingX={'5%'}>
                             {item[Object.keys(item)[0]].map((publication: { title: string; authors: Author[]; journal: string; code: string | undefined; link: string | undefined }, pubIndex: React.Key | null | undefined) => (
                                 <PublicationCard
                                     key={pubIndex}

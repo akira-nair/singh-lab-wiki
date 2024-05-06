@@ -27,7 +27,7 @@ const Navigation = () => {
             </Text>
           </Link>
         </Flex>
-        <Menu>
+        <Menu closeOnSelect={false}>
           <MenuButton
             as={IconButton}
             aria-label='Options'
@@ -38,24 +38,29 @@ const Navigation = () => {
           />
           <MenuList color={'gray'}>
             <MenuItem >
-            <Link href="/about" marginRight="3rem">
-              About Us
-            </Link>
+              <Link href="/about" style={{ width: '100%', height: '100%' }}>
+                About Us
+              </Link>
             </MenuItem>
             <MenuItem >
-            <Link href="/wiki" marginRight="3rem">
-              Lab Wiki
-            </Link>
+              <Link href="/wiki" style={{ width: '100%', height: '100%' }}>
+                Lab Wiki
+              </Link>
             </MenuItem>
             <MenuItem >
-            <Link href="/publications" marginRight="3rem">
-              Publications
-            </Link>
+              <Link href="/publications" style={{ width: '100%', height: '100%' }}>
+                Publications
+              </Link>
             </MenuItem>
+              <MenuItem>
+                <Link href="/news" style={{ width: '100%', height: '100%' }}>
+                  Lab Updates
+                </Link>
+              </MenuItem>
             <MenuItem>
-            <Link href="/join" marginRight="3rem">
-              Join Us
-            </Link>
+              <Link href="/join" style={{ width: '100%', height: '100%' }}>
+                Join Us
+              </Link>
             </MenuItem>
           </MenuList>
         </Menu>
